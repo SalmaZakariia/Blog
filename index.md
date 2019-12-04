@@ -56,26 +56,18 @@ Logistic regression is a technique borrowed by machine learning from the field o
 ![](libdataset.PNG)
 ### Encoding Features:
 ![](encoding.PNG)
-
 ### Splitting Data and Feature Scalling:
 ![](split.PNG)
-
-
 ### Cross Validation For Naive Bayes:
 ![](cvnaive.PNG)
-
 ### Results Obtained: 
 
 ### Cross Validation For Logistic Regression:
 ![](cvlogistic.PNG)
-
- ### Results Obtained: 
-
-
+### Results Obtained: 
 
 ### Cross Validation For KNN:
 ![](cvknn.PNG)
-
 ### Results obtained: 
 
 
@@ -85,15 +77,6 @@ Logistic regression is a technique borrowed by machine learning from the field o
 ### Data Pre-proccessing:
 By applying t-test , we selected the most effective features on Risk 1 Year feature. We found that Age and Size of tumer are the most effective features. We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them. 
 ![](visualization.PNG)
-
-
-
-
-
-
-
-
-
 ## Team Members:
 * [Asmaa Mahmoud ](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
 * [Alaa Gamal ](https://alaagamal98.github.io/AlaaGamal/) 
