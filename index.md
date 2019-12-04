@@ -2,12 +2,10 @@
 ![](thoracic.png)
 ## Introduction to Thoracic Surgery:
 Thoracic surgery as its evolving and surgeons have major collaborative roles in management of lung cancer, respiratory infections, chest trauma, pediatric respiratory disorders and end-stage respiratory. Today, lung cancer is the most frequent indication for thoracic surgery. Thoracic Surgeries focuses on the chest organs, including the esophegus , trachea , pleura , chest wall, diaphragm, heart, and lungs. Technological advances have increased the safety and availability of these complex surgical procedures. Lung cancer surgeries and anti-reflex surgeries save and improve lives around the world. The most common diseases requiring thoracic surgery include lung cancer, chest trauma (require urgent thoracic surgery), esophageal cancer, emphysema and lung transplantation.
-
-
 ## Dataset Information:
 The data was collected retrospectively at Wroclaw Thoracic Surgery Centre for patients who underwent major lung resections for primary lung cancer in the years 2007 & 2011. 
-### Attributes: 
-We have 17 attributes in our dataset classified to:
+### Features: 
+We have 17 Features in our dataset which are:
 * Diagnosis. 
 * Forced Vital Capacity.
 * Forced Expiratory Volume.
@@ -25,10 +23,9 @@ We have 17 attributes in our dataset classified to:
 * Asthma (T,F).
 * Age.
 * Risk 1 Year.
-
 ## R-Programming Language:
 R is a clear and accessible programming tool. R includes machine learning algorithm, linear regression, time series, statistical inference to name a few.
-## Methods Used:
+## Methods Used in Machine Learning by R-Language:
 ### Naive Bayes:
 Naive Bayes is a classification algorithm for binary (two-class) and multiclass classification problems. The technique is easiest to understand when described using binary or categorical input values.
 #### Advantages of Naive Bayes:
@@ -36,8 +33,6 @@ Naive Bayes is a classification algorithm for binary (two-class) and multiclass 
 * Naive Bayes requires a small amount of training data to estimate the
 test data. So, the training period is less.
 * Naive Bayes is also easy to implement.
-
-
 ### Logistic Regression:
 Logistic regression is a technique borrowed by machine learning from the field of statistics.
 #### Advantages of Logistic regression:
@@ -46,7 +41,7 @@ Logistic regression is a technique borrowed by machine learning from the field o
 * Easy to regularize.
 * Easy to implement.
 ### K-nearest Neighbors (KNN) Mode:
->KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
+KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
 #### Advantages of KNN:
 * Very simple implementation.
 * Classifier can be updated online at very little cost as new instances with known classes are presented.
@@ -70,15 +65,12 @@ Logistic regression is a technique borrowed by machine learning from the field o
 ![](cvknn.PNG)
 ### Results obtained: 
 
-
-
-
 ## Visualization of Data:
 ### Data Pre-proccessing:
 By applying t-test , we selected the most effective features on Risk 1 Year feature. We found that Age and Size of tumer are the most effective features. We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them. 
 ![](visualization.PNG)
 ## Team Members:
-* [Asmaa Mahmoud ](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
-* [Alaa Gamal ](https://alaagamal98.github.io/AlaaGamal/) 
-* [Salma Zakaria ](https://salmazakariia.github.io/Salma-Zakaria/) 
-* [Marwa Youssef ](https://marwaayosiif.github.io/MarwaYoussef/) 
+* [Asmaa Mahmoud](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
+* [Alaa Gamal](https://alaagamal98.github.io/AlaaGamal/) 
+* [Salma Zakaria](https://salmazakariia.github.io/Salma-Zakaria/) 
+* [Marwa Youssef](https://marwaayosiif.github.io/MarwaYoussef/) 
