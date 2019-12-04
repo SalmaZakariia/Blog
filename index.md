@@ -46,10 +46,10 @@ field of statistics.
 4. Easy to implement.
 ## K-nearest Neighbors (KNN) Mode:
 >KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
-### Advantages of KNN:
-1. Very simple implementation.
-2. Classifier can be updated online at very little cost as new instances with known classes are presented.
-3. Few parameters to tune: distance metric and k.
+## Advantages of KNN:
+>1. Very simple implementation.
+>2. Classifier can be updated online at very little cost as new instances with known classes are presented.
+>3. Few parameters to tune: distance metric and k.
 ## Data Pre-proccessing:
 >In our data we have three scale variables and thirteen nominal variables,So we need to determine the correlation between the scale and nominal variables and the one-year status.We will use two types of relations. The ANOVA test between the one-year status and scale variables while the chi-square between one-year status and the nominal variables.
 >We won’t do any data imputation in our statistical model
