@@ -85,12 +85,14 @@ Logistic regression is a technique borrowed by machine learning from the field o
 ### Data Pre-proccessing:
 <blockquote>
 By applying t-test , we selected the most effective features on Risk 1 Year feature. We found that Age and Size of tumer are the most effective features. We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them. 
-![](visualization.PNG)
+ 
+ 
+
  
  </blockquote>
 
 
-
+![](visualization.PNG)
 
 
 
