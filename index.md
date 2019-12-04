@@ -23,8 +23,10 @@ We have 17 Features in our dataset which are:
 * Asthma (T,F).
 * Age.
 * Risk 1 Year.
+
 ## R-Programming Language:
 R is a clear and accessible programming tool. R includes machine learning algorithm, linear regression, time series, statistical inference to name a few.
+
 ## Methods Used in Machine Learning by R-Language:
 ### Naive Bayes:
 Naive Bayes is a classification algorithm for binary (two-class) and multiclass classification problems. The technique is easiest to understand when described using binary or categorical input values.
