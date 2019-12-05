@@ -49,6 +49,8 @@ KNN is an algorithm that is considered both non-parametric and an example of laz
 * Classifier can be updated online at very little cost as new instances with known classes are presented.
 * Few parameters to tune: distance metric and k.
 ## Thoracic Surgery by Machine Learning:
+### Data Pre-proccessing: 
+By applying t-test , we selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05 . We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
 ### Importing Libraries ana Dataset in R:
 ![](libdataset.PNG)
 ### Encoding Features:
@@ -68,8 +70,8 @@ KNN is an algorithm that is considered both non-parametric and an example of laz
 ### Results obtained: 
 
 ## Visualization of Data:
-### Data Pre-proccessing:
-By applying t-test , we selected the most effective features on Risk 1 Year feature. We found that Age and Size of tumer are the most effective features. We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them. 
+ From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
+ 
 ![](visualization.PNG)
 ## Team Members:
 * [Asmaa Mahmoud](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
