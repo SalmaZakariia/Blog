@@ -84,6 +84,22 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 
 ### Results Obtained: 
 ![](lrresults.PNG)
+
+
+|  Accuracy  |  Specifity | 
+|------------|------------|
+|   0.7716   |   0.8544   |
+
+
+|  Accuracy  |  Specifity |
+|------------|------------|
+|   0.8342   |  0.8507    |
+
+
+|  Accuracy  |  Specifity | 
+|------------|------------|
+|   0.8339   |   0.8454   |
+
 ## Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
  ![](visualization.PNG)
