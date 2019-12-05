@@ -78,6 +78,7 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvknn.png)
 
 ### Results obtained:
+
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 |  0.8343  |   0.05      |   0.9756  |
@@ -89,6 +90,7 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvlogistic.png)
 
 ### Results Obtained: 
+
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 | 0.8339   |   0.0311    |   0.9787 |
