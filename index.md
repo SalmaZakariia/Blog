@@ -63,27 +63,27 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](libdataset.png)
 
 ### Scaling and Splitting Dataset into Training and Test sets:
-![](scaling.png)
+![](conversion.png)
 
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
 
 ### Results Obtained: 
-![](nbresults.png)
+![](nbresults.PNG)
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
 ### Results obtained:
-![](knnresults.png)  
+![](knnresults.PNG)  
 
 ### Converting Factors to Numeric:
-![](conversion.png)
+![](scaling.png)
 
 ### Cross Validation For Logistic Regression:
 ![](cvlogistic.png)
 
 ### Results Obtained: 
-![](lrresults.png)
+![](lrresults.PNG)
 ## Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
  ![](visualization.PNG)
