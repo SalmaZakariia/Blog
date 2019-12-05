@@ -103,6 +103,9 @@ We won’t do any data imputation in our statistical model because our dataset i
 ### Cross Validation For Logistic Regression:
 #### Bagging:
 Bagging and bootstrap aggregation, is a relatively simple way to increase the power of a predictive statistical model by taking multiple random samples(with replacement) from your training data set, and using each of these samples to construct a separate model and separate predictions for your test set. These predictions are then averaged to create a, hopefully more accurate, final prediction value.
+##### Stratified K-Folds:
+Stratification is the process of rearranging the data as to ensure each fold is a good representative of the whole. For example in a binary classification problem where each class comprises 50% of the data, it is best to arrange the data such that in every fold, each class comprises around half the instances.
+
 ![](cvlogistic.png)
 
 #### Results Obtained: 
