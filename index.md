@@ -72,7 +72,7 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.1500   |   0.8828  |
+| 0.77166  |    0.15   |   0.8828  |
 
 ### Cross Validation For KNN:
 ![](cvknn.png)
