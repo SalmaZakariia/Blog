@@ -94,5 +94,5 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ## Team Members:
 * <a href="https://asmaamahmoud12.github.io/Asmaa-Mahmoud/" target="_blank">Asmaa Mahmoud </a>
 * <a href="https://alaagamal98.github.io/AlaaGamal/ " target ="_blank"> Alaa Gamal </a> 
-* <a href="https://github.com/SalmaZakariia" target="_blank">Salma Zakaria </a>
+* <a href="https://salmazakariia.github.io/SalmaZakaria/" target="_blank">Salma Zakaria </a>
 * <a href ="https://marwaayosiif.github.io/MarwaYoussef/" target = "_blank"> Marwa Youssef </a>
