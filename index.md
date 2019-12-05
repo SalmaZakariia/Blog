@@ -69,18 +69,12 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvnaivebayes.png)
 
 ### Results Obtained: 
-|Accuracy|Sensitivity|Specifity|
-|--------|-----------|---------|
-| 0.7716 |    NAN    | 0.8544  |  
-
-
+![](nbresults.png)
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
 ### Results obtained:
-|Accuracy|Sensitivity|Specifity|
-|--------|-----------|---------|
-| 0.8342 |    NAN    | 0.8507  |  
+![](knnresults.png)  
 
 ### Converting Factors to Numeric:
 ![](conversion.png)
@@ -89,10 +83,7 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvlogistic.png)
 
 ### Results Obtained: 
-|Accuracy|Sensitivity|Specifity|
-|--------|-----------|---------|
-|  0.83  |    NAN    | 0.8485  | 
-
+![](lrresults.png)
 ## Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
  ![](visualization.PNG)
