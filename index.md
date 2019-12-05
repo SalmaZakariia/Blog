@@ -117,6 +117,8 @@ Bagging and bootstrap aggregation, is a relatively simple way to increase the po
 ##### Stratified K-Folds:
 Stratification is the process of rearranging the data as to ensure each fold is a good representative of the whole. For example in a binary classification problem where each class comprises 50% of the data, it is best to arrange the data such that in every fold, each class comprises around half the instances.
 
+![](statified and bagging)
+
 ![](cvlogistic.png)
 
 #### Results Obtained: 
