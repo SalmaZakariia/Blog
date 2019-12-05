@@ -69,12 +69,18 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvnaivebayes.png)
 
 ### Results Obtained: 
-![](nbresults.PNG)
+
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+| 0.77166| |   0.15      |   0.8828  |
+
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
 ### Results obtained:
-![](knnresults.PNG)  
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+|  0.8343  |   0.05      |   0.9756  |
 
 ### Converting Factors to Numeric:
 ![](scaling.png)
@@ -83,7 +89,9 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](cvlogistic.png)
 
 ### Results Obtained: 
-![](lrresults.PNG)
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+| 0.8339   |   0.0311    |   0.9787 |
 
 
 
