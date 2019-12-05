@@ -77,7 +77,9 @@ We won’t do any data imputation in our statistical model because our dataset i
 ![](conversion.png)
 
 ### Feature Selection:
-![](feature selection.PNG)
+
+
+
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
 
