@@ -92,7 +92,7 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
  ![](visualization.PNG)
 
 ## Team Members:
-* [Asmaa Mahmoud](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
-* [Alaa Gamal](https://alaagamal98.github.io/AlaaGamal/) 
-* [Salma Zakaria](https://salmazakariia.github.io/Salma-Zakaria/) 
-* [Marwa Youssef](https://marwaayosiif.github.io/MarwaYoussef/) 
+* <a href="https://asmaamahmoud12.github.io/Asmaa-Mahmoud/" target="_blank">Asmaa Mahmoud </a>
+* <a href="https://alaagamal98.github.io/AlaaGamal/ " target ="_blank"> Alaa Gamal </a> 
+* <a href="https://github.com/SalmaZakariia" target="_blank">Salma Zakaria </a>
+* <a href ="https://marwaayosiif.github.io/MarwaYoussef/" target = "_blank"> Marwa Youssef </a>
