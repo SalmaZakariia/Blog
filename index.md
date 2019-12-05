@@ -77,7 +77,7 @@ We won’t do any data imputation in our statistical model because our dataset i
 ![](conversion.png)
 
 ### Feature Selection:
-![](feature selection.PNG)
+![](Selection.PNG)
 ### Cross Validation For Naive Bayes:
 ![](Naive.png)
 
@@ -117,7 +117,7 @@ Bagging and bootstrap aggregation, is a relatively simple way to increase the po
 ##### Stratified K-Folds:
 Stratification is the process of rearranging the data as to ensure each fold is a good representative of the whole. For example in a binary classification problem where each class comprises 50% of the data, it is best to arrange the data such that in every fold, each class comprises around half the instances.
 
-![](logistic.png)
+![](Log.png)
 
 
 
