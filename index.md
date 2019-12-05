@@ -74,6 +74,12 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 |----------|-------------|-----------|
 | 0.77166  |    0.15   |   0.8828  |
 
+#### By making Feature selection, we obtained that :
+
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+| 0.77166  |    0.15   |   0.8828  |
+
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
@@ -82,6 +88,13 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 |  0.8343  |   0.05      |   0.9756  |
+
+
+ #### By making Feature selection, we obtained that :
+
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+| 0.77166  |    0.15   |   0.8828  |
 
 
 ### Converting Factors to Numeric:
@@ -95,7 +108,12 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 | 0.8339   |   0.0311    |   0.9787 |
+ 
+ #### By making Feature selection, we obtained that :
 
+| Accuracy | Sensitivity | Specifity |
+|----------|-------------|-----------|
+| 0.77166  |    0.15   |   0.8828  |
 
 
 
