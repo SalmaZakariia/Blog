@@ -1,9 +1,12 @@
 # Thoracic Surgery With Machine Learning.
 ![](thoracic.png)
+
 ## Introduction to Thoracic Surgery:
 Thoracic surgery as its evolving and surgeons have major collaborative roles in management of lung cancer, respiratory infections, chest trauma, pediatric respiratory disorders and end-stage respiratory. Today, lung cancer is the most frequent indication for thoracic surgery. Thoracic Surgeries focuses on the chest organs, including the esophegus , trachea , pleura , chest wall, diaphragm, heart, and lungs. Technological advances have increased the safety and availability of these complex surgical procedures. Lung cancer surgeries and anti-reflex surgeries save and improve lives around the world. The most common diseases requiring thoracic surgery include lung cancer, chest trauma (require urgent thoracic surgery), esophageal cancer, emphysema and lung transplantation.
+
 ## Dataset Information:
 The data was collected retrospectively at Wroclaw Thoracic Surgery Centre for patients who underwent major lung resections for primary lung cancer in the years 2007 & 2011. 
+
 ### Features: 
 We have 17 Features in our dataset which are:
 * Diagnosis. 
@@ -28,8 +31,10 @@ We have 17 Features in our dataset which are:
 R is a clear and accessible programming tool. R includes machine learning algorithm, linear regression, time series, statistical inference to name a few.
 
 ## Methods Used in Machine Learning by R-Language:
+
 ### Naive Bayes:
 Naive Bayes is a classification algorithm for binary (two-class) and multiclass classification problems. The technique is easiest to understand when described using binary or categorical input values.
+
 #### Advantages of Naive Bayes:
 * When assumption of independent predictors holds true, a Naive Bayes classifier performs better as compared to other models.
 * Naive Bayes requires a small amount of training data to estimate the
@@ -37,7 +42,9 @@ test data. So, the training period is less.
 * Naive Bayes is also easy to implement.
 
 ### K-nearest Neighbors (KNN) Mode:
+
 KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
+
 #### Advantages of KNN:
 * Very simple implementation.
 * Classifier can be updated online at very little cost as new instances with known classes are presented.
@@ -45,6 +52,7 @@ KNN is an algorithm that is considered both non-parametric and an example of laz
 
 ### Logistic Regression:
 Logistic regression is a technique borrowed by machine learning from the field of statistics.
+
 #### Advantages of Logistic regression:
 * Very efficient.
 * Doesn’t require too many resources.
@@ -74,8 +82,8 @@ We won’t do any data imputation in our statistical model because our dataset i
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.15   |   0.8828  |
-
+| 0.77166  |    0.15     |  0.8828   |
+ 
 #### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
@@ -122,9 +130,10 @@ Stratification is the process of rearranging the data as to ensure each fold is 
 
 ### Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
- 
+ * Plotting y-pred with Age.
  ![]()
-
+ * Plotting y-pred with Size Of Tumer.
+ ![]()
 ## Team Members:
 * <a href="https://asmaamahmoud12.github.io/Asmaa-Mahmoud/" target="_blank">Asmaa Mahmoud </a>
 * <a href="https://alaagamal98.github.io/AlaaGamal/ " target ="_blank"> Alaa Gamal </a> 
