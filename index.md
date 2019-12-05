@@ -77,11 +77,9 @@ We won’t do any data imputation in our statistical model because our dataset i
 ![](conversion.png)
 
 ### Feature Selection:
-
-
-
+![](feature selection.PNG)
 ### Cross Validation For Naive Bayes:
-![](cvnaivebayes.png)
+![](Naive.png)
 
 #### Results Obtained without Feature Selection:
 
@@ -96,7 +94,7 @@ We won’t do any data imputation in our statistical model because our dataset i
 | 0.7717   |    0.1785   |   0.886   |
 
 ### Cross Validation For KNN:
-![](cvknn.png)
+![](KNN.png)
 
 #### Results obtained without Feature Selection:
 
@@ -136,11 +134,16 @@ Stratification is the process of rearranging the data as to ensure each fold is 
 | 0.8249   |    0.5   |   0.8828  |
 
 ### Visualization of Data:
+#### Converting Factors to numeric and Splitting Dataset:
+![](Splittingplot.png)
+
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
  * Plotting y-pred with Age.
- ![]()
+ ![](Age.png)
  * Plotting y-pred with Size Of Tumer.
- ![]()
+ ![](Size.png)
+ * Plotting Age with Size Of Tumer
+ ![](AgeSize.png)
 ## Team Members:
 * <a href="https://asmaamahmoud12.github.io/Asmaa-Mahmoud/" target="_blank">Asmaa Mahmoud </a>
 * <a href="https://alaagamal98.github.io/AlaaGamal/ " target ="_blank"> Alaa Gamal </a> 
