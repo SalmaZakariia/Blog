@@ -51,22 +51,24 @@ KNN is an algorithm that is considered both non-parametric and an example of laz
 ## Thoracic Surgery by Machine Learning:
 ### Data Pre-proccessing: 
 By applying t-test , we selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05 . We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
-### Importing Libraries ana Dataset in R:
-![](libdataset.PNG)
-### Encoding Features:
-![](encoding.PNG)
-### Splitting Data and Feature Scalling:
-![](split.PNG)
+### Importing Libraries in R :
+![](libraries.PNG)
+### Importing Dataset and Encoding Features:
+![](libdataset.png)
+### Scaling and Splitting Dataset into Training and Test sets:
+
+![](scaling.png)
+
 ### Cross Validation For Naive Bayes:
-![](cvnaive.PNG)
+![](cvnaivebayes.png)
 ### Results Obtained: 
 
 ### Cross Validation For Logistic Regression:
-![](cvlogistic.PNG)
+![](cvlogistic.png)
 ### Results Obtained: 
 
 ### Cross Validation For KNN:
-![](cvknn.PNG)
+![](cvknn.png)
 ### Results obtained: 
 
 ## Visualization of Data:
