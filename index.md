@@ -68,33 +68,34 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
 
-### Results Obtained: 
+### Results Obtained without Feature Selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 | 0.77166  |    0.15   |   0.8828  |
 
-#### By making Feature selection, we obtained that :
+### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.15   |   0.8828  |
+| 0.7717   |    0.1785   |   0.886   |
 
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
-### Results obtained:
+### Results obtained without Feature Selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 |  0.8343  |   0.05      |   0.9756  |
 
 
- #### By making Feature selection, we obtained that :
+ ### Results obtained by Feature selection:
+
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.15   |   0.8828  |
+|  0.8038  |    0.06     |    0.94   |
 
 
 ### Converting Factors to Numeric:
