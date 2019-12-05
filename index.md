@@ -61,16 +61,18 @@ Logistic regression is a technique borrowed by machine learning from the field o
 
 ## Thoracic Surgery by Machine Learning:
 
+### Importing Libraries in R :
+
+![](libraries.PNG)
+
+### Importing Dataset and Encoding Features:
+
+![](libdataset.png)
+
 ### Data Pre-proccessing: 
 By applying the t-test which takes a sample from each of the two sets and establishes the problem statement by assuming a null hypothesis that the two means are equal. Based on the applicable formulas, certain values are calculated and compared against the standard values, and the assumed null hypothesis is accepted or rejected accordingly. 
 We selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05.
 We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
-
-### Importing Libraries in R :
-![](libraries.PNG)
-
-### Importing Dataset and Encoding Features:
-![](libdataset.png)
 
 ### Scaling and Splitting Dataset into Training and Test sets:
 
