@@ -68,13 +68,13 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
 
-### Results Obtained without Feature Selection:
+#### Results Obtained without Feature Selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 | 0.77166  |    0.15   |   0.8828  |
 
-### Results obtained by Feature selection:
+#### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
@@ -83,20 +83,17 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ### Cross Validation For KNN:
 ![](cvknn.png)
 
-### Results obtained without Feature Selection:
+#### Results obtained without Feature Selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 |  0.8343  |   0.05      |   0.9756  |
 
-
- ### Results obtained by Feature selection:
-
+#### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 |  0.8038  |    0.06     |    0.94   |
-
 
 ### Converting Factors to Numeric:
 ![](scaling.png)
@@ -104,23 +101,22 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ### Cross Validation For Logistic Regression:
 ![](cvlogistic.png)
 
-### Results Obtained: 
+#### Results Obtained: 
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
 | 0.8339   |   0.0311    |   0.9787 |
  
- #### By making Feature selection, we obtained that :
+#### By making Feature selection, we obtained that :
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.15   |   0.8828  |
+| 0.8249   |    0.5   |   0.8828  |
 
-
-
-## Visualization of Data:
+### Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
- ![](visualization.PNG)
+ 
+ ![]()
 
 ## Team Members:
 * <a href="https://asmaamahmoud12.github.io/Asmaa-Mahmoud/" target="_blank">Asmaa Mahmoud </a>
