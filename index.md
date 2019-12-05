@@ -104,13 +104,13 @@ We won’t do any data imputation in our statistical model because our dataset i
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-|  0.84  |   0      |   0.98  |
+|  0.84  |   0.0166      |   0.98  |
 
 #### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-|  0.824  |    0     |    0.981   |
+|  0.824  |    0.001     |    0.981   |
 
 ### Converting Factors to Numeric:
 ![](scaling.png)
