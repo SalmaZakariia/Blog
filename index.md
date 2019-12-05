@@ -54,7 +54,9 @@ Logistic regression is a technique borrowed by machine learning from the field o
 ## Thoracic Surgery by Machine Learning:
 
 ### Data Pre-proccessing: 
-By applying t-test , we selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05 . We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
+By applying the t-test which takes a sample from each of the two sets and establishes the problem statement by assuming a null hypothesis that the two means are equal. Based on the applicable formulas, certain values are calculated and compared against the standard values, and the assumed null hypothesis is accepted or rejected accordingly. 
+We selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05.
+We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
 
 ### Importing Libraries in R :
 ![](libraries.PNG)
@@ -99,6 +101,8 @@ By applying t-test , we selected the most effective features on Risk 1 Year feat
 ![](scaling.png)
 
 ### Cross Validation For Logistic Regression:
+#### Bagging:
+Bagging and bootstrap aggregation, is a relatively simple way to increase the power of a predictive statistical model by taking multiple random samples(with replacement) from your training data set, and using each of these samples to construct a separate model and separate predictions for your test set. These predictions are then averaged to create a, hopefully more accurate, final prediction value.
 ![](cvlogistic.png)
 
 #### Results Obtained: 
