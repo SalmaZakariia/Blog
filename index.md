@@ -77,7 +77,9 @@ We won’t do any data imputation in our statistical model because our dataset i
 ![](conversion.png)
 
 ### Feature Selection:
-![](Selection.PNG)
+
+![](Selection.png)
+
 ### Cross Validation For Naive Bayes:
 ![](Naive.png)
 
@@ -85,13 +87,13 @@ We won’t do any data imputation in our statistical model because our dataset i
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.77166  |    0.15     |  0.8828   |
+| 0.779  |    0.16     |  0.881   |
  
 #### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.7717   |    0.1785   |   0.886   |
+| 0.74   |    0.1166   |   0.86   |
 
 ### Cross Validation For KNN:
 ![](KNN.png)
@@ -100,13 +102,13 @@ We won’t do any data imputation in our statistical model because our dataset i
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-|  0.8343  |   0.05      |   0.9756  |
+|  0.84  |   0      |   0.98  |
 
 #### Results obtained by Feature selection:
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-|  0.8038  |    0.06     |    0.94   |
+|  0.824  |    0     |    0.981   |
 
 ### Converting Factors to Numeric:
 ![](scaling.png)
@@ -117,7 +119,7 @@ Bagging and bootstrap aggregation, is a relatively simple way to increase the po
 ##### Stratified K-Folds:
 Stratification is the process of rearranging the data as to ensure each fold is a good representative of the whole. For example in a binary classification problem where each class comprises 50% of the data, it is best to arrange the data such that in every fold, each class comprises around half the instances.
 
-![](Log.png)
+![]( Log.png )
 
 
 
@@ -125,13 +127,13 @@ Stratification is the process of rearranging the data as to ensure each fold is 
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.8339   |   0.0311    |   0.9787 |
+| 0.84   |   0.0082    |   0.988 |
  
 #### By making Feature selection, we obtained that :
 
 | Accuracy | Sensitivity | Specifity |
 |----------|-------------|-----------|
-| 0.8249   |    0.5   |   0.8828  |
+| 0.835   |    0.0166   |   0.9905  |
 
 ### Visualization of Data:
 #### Converting Factors to numeric and Splitting Dataset:
