@@ -73,8 +73,11 @@ We won’t do any data imputation in our statistical model because our dataset i
 ![](libdataset.png)
 
 ### Scaling and Splitting Dataset into Training and Test sets:
+
 ![](conversion.png)
 
+### Feature Selection:
+![](Feature.PNG)
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
 
