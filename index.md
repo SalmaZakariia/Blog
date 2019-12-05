@@ -35,6 +35,14 @@ Naive Bayes is a classification algorithm for binary (two-class) and multiclass 
 * Naive Bayes requires a small amount of training data to estimate the
 test data. So, the training period is less.
 * Naive Bayes is also easy to implement.
+
+### K-nearest Neighbors (KNN) Mode:
+KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
+#### Advantages of KNN:
+* Very simple implementation.
+* Classifier can be updated online at very little cost as new instances with known classes are presented.
+* Few parameters to tune: distance metric and k.
+
 ### Logistic Regression:
 Logistic regression is a technique borrowed by machine learning from the field of statistics.
 #### Advantages of Logistic regression:
@@ -42,39 +50,53 @@ Logistic regression is a technique borrowed by machine learning from the field o
 * Doesn’t require too many resources.
 * Easy to regularize.
 * Easy to implement.
-### K-nearest Neighbors (KNN) Mode:
-KNN is an algorithm that is considered both non-parametric and an example of lazy learning.
-#### Advantages of KNN:
-* Very simple implementation.
-* Classifier can be updated online at very little cost as new instances with known classes are presented.
-* Few parameters to tune: distance metric and k.
+
 ## Thoracic Surgery by Machine Learning:
+
 ### Data Pre-proccessing: 
 By applying t-test , we selected the most effective features on Risk 1 Year feature. We selected the the features that has p-value less than 0.05 . We won’t do any data imputation in our statistical model because our dataset is complete and doesn’t have any missing values in them.
+
 ### Importing Libraries in R :
 ![](libraries.PNG)
+
 ### Importing Dataset and Encoding Features:
 ![](libdataset.png)
-### Scaling and Splitting Dataset into Training and Test sets:
 
+### Scaling and Splitting Dataset into Training and Test sets:
 ![](scaling.png)
 
 ### Cross Validation For Naive Bayes:
 ![](cvnaivebayes.png)
-### Results Obtained: 
 
-### Cross Validation For Logistic Regression:
-![](cvlogistic.png)
 ### Results Obtained: 
+|Accuracy|Sensitivity|Specifity|
+|--------|-----------|---------|
+| 0.7716 |    NAN    | 0.8544  |  
+
 
 ### Cross Validation For KNN:
 ![](cvknn.png)
-### Results obtained: 
+
+### Results obtained:
+|Accuracy|Sensitivity|Specifity|
+|--------|-----------|---------|
+| 0.8342 |    NAN    | 0.8507  |  
+
+### Converting Factors to Numeric:
+![](conversion.png)
+
+### Cross Validation For Logistic Regression:
+![](cvlogistic.png)
+
+### Results Obtained: 
+|Accuracy|Sensitivity|Specifity|
+|--------|-----------|---------|
+| NAN    |    NAN    | NAN     | 
 
 ## Visualization of Data:
  From Feature selection, we chose Age and Size Of Tumer because they have the least p-value and the largest t-score.
- 
-![](visualization.PNG)
+ ![](visualization.PNG)
+
 ## Team Members:
 * [Asmaa Mahmoud](https://asmaamahmoud12.github.io/Asmaa-Mahmoud/) 
 * [Alaa Gamal](https://alaagamal98.github.io/AlaaGamal/) 
